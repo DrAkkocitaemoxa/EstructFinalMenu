@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int choice;
+  cout<<"\nBienvenido escoja lo que desea hacer:\n";
+cout << "..........................................\n";
+  cout<<"1. Ingresar objetos al sistema\n2. Eliminar objetos del sistema\n3. Actualizar objetos del sistema\n4. Realizar consultas de un objeto\n5. Ver todos los objetos almacenados\n6. Ordenar los objetos en orden ascendente en base a \n7. Ordenar los objetos en orden descendente en base a \n8. Ordenar los objetos alfabéticamente\n9. Salir (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)\n";
+cout << "..........................................\n";
+  cout<<"\n-> ";cin>>choice;
+  switch(choice){
+//Ingresar objetos al sistema
+    case 1:
+    break;
+//Eliminar objetos del sistema
+    case 2:
+    break;
+//Actualizar objetos del sistema
+    case 3:
+    break;
+//Realizar consultas de un objeto
+    case 4:
+    break;
+//Ver todos los objetos almacenados
+    case 5:
+    break;
+//Ordenar los objetos en orden ascendente en base a
+    case 6:
+    break;
+//Ordenar los objetos en orden descendente en base a
+    case 7:
+    break;
+//Ordenar los objetos alfabéticamente
+    case 8:
+    break;
+//Salir
+    case 9:
+    return 0;
+    break;
+  }
+}
